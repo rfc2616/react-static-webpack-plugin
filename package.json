@@ -27,7 +27,8 @@
     "bump": "npm run bump:patch",
     "preversion": "npm test",
     "postversion": "git push && git push --tags",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "ava": {
     "require": [
